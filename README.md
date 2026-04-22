@@ -25,9 +25,10 @@ AgentSync is built with an **LLM-Agnostic** architectural approach:
 ## 🛠 Tech Stack
 
 - Frontend: Next.js, Tailwind CSS
-- Backend: Node.js, Express (optional), API integrations
-- AI: OpenAI API / Langchain / Custom LLM Agents
+- Backend: Node.js (Next.js API Routes), MongoDB
+- AI: Custom Simulation Engine, OpenAI API (Ready), Google Gemini, Groq, & Ollama support
 - Hosting: Vercel
+
 
 ![image](https://github.com/user-attachments/assets/459bd61d-9e21-48fa-a498-cbc5a134845f)
 
