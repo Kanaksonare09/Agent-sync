@@ -15,6 +15,13 @@ AgentSync is a multi-agent AI platform designed to automate and assist with a va
 - 🐦 **Twitter Analyzer** - Track trends and summarize your Twitter feed.
 - 📸 **Instagram Helper** - Content suggestions and engagement analytics.
 
+## 🤖 AI Architecture
+AgentSync is built with an **LLM-Agnostic** architectural approach:
+- **Simulation Engine**: Currently utilizes a custom built-in simulation engine for the live demo to ensure zero-latency and cost-free interactions.
+- **Pluggable Models**: The system is designed to easily swap between **OpenAI (GPT-4)**, **Google Gemini**, or local models via **Ollama**.
+- **Agent Orchestration**: Each agent leverages specific system prompts and context injection to handle specialized tasks like summarization and planning.
+
+
 ## 🛠 Tech Stack
 
 - Frontend: Next.js, Tailwind CSS
